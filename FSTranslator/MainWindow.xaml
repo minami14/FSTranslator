@@ -1,0 +1,17 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="SSTranslator" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="TextBoxDetected" HorizontalAlignment="Left" Height="310" Margin="20,80,0,0" TextWrapping="Wrap" Text="Text detected from the image" VerticalAlignment="Top" Width="360" AcceptsReturn="True" IsReadOnly="True"/>
+        <TextBox x:Name="TextBoxTranslated" HorizontalAlignment="Left" Height="310" Margin="400,80,0,0" TextWrapping="Wrap" Text="Translated text" VerticalAlignment="Top" Width="360" AcceptsReturn="True" IsReadOnly="True"/>
+        <CheckBox x:Name="CheckBoxPlayVoice" Content="Play translate result" HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <TextBox x:Name="TextBoxTargetFolder" HorizontalAlignment="Left" Height="23" Margin="20,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="671" IsReadOnly="True"/>
+        <Button x:Name="ButtonSelectFolder" Content="Browse" HorizontalAlignment="Left" Margin="696,40,0,0" VerticalAlignment="Top" Height="23" Width="64"/>
+        <Label x:Name="Label" Content="Language" HorizontalAlignment="Left" Margin="525,10,0,0" VerticalAlignment="Top" Height="30" Width="65"/>
+        <ComboBox x:Name="ComboBoxLanguage" HorizontalAlignment="Left" Margin="595,10,0,0" VerticalAlignment="Top" Width="165"/>
+    </Grid>
+</Window>
